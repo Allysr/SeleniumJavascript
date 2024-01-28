@@ -14,11 +14,11 @@ describe('Login', () => {
     it('Login successful', async () => {
         await login.validLogin();
     })
-    
+
     it('Login locked', async () => {
         await login.lockedLogin();
     })
-    
+
     afterEach(async () => {
         await base.close();
     })
