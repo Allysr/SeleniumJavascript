@@ -1,4 +1,8 @@
 import { Builder } from "selenium-webdriver";
+import dotenv from 'dotenv';
+dotenv.config();
+
+const url = process.env.URL
 
 export default class BasePage {
     
@@ -8,7 +12,7 @@ export default class BasePage {
 
     async open() {
         this.driver = new Builder().forBrowser('chrome').build();
-        this.driver.get('https://www.saucedemo.com/');
+        this.driver.get(url);
     }
 
     async getDriver() {
