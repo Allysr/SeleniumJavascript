@@ -9,7 +9,7 @@
 <br>
 
 
-#### Como executar o projeto:
+#### 🔖 Como executar o projeto:
 ```diff 
 • git clone 
 • cd SeleniumJavascript
