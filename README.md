@@ -9,13 +9,12 @@
 <br>
 
 
-<h4 align="center">
-  Como rodar o projeto:
-</h4>
-
-```diff  
-  npm i
-  npm run test
+#### Como executar o projeto:
+```diff 
+• git clone 
+• cd SeleniumJavascript
+• npm install
+• npm run test
 ```
 
 <br>
